@@ -1,0 +1,18 @@
+#include<iostream>
+ 
+using namespace std;
+ 
+int main() 
+{
+	int t; cin >> t;
+	while (t--) 
+	{
+		int n;                                 //硬币数量
+		int k;                                 //甜品数量
+		cin >> n >> k;
+		k = min(k, 30);                       //在这里作限制的原因是对于2的30次方远超硬币的数量n
+ 
+		cout << min(n + 1, 1 << k) << endl;  //前者为花完金币的情况  后者为甜品有限金币花不完
+	}
+	return 0;
+}
