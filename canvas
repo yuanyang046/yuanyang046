@@ -1,0 +1,21 @@
+canvas{
+	width:300%;
+	height:300%;
+}
+</script> 
+<style type="text/css">
+  .aa
+  {
+   font: "微软雅黑";
+   font-size: 30px;
+   color: gold;   
+   text-align: center;  
+   } 
+</style> 
+</head>
+	
+<body style="background:#000;font:12px Arial">
+  <p class="aa">新年快乐</p>  
+    <audio src="audio/"></audio> 
+   } 
+<canvas id="canvas" width="1888" height="790"></canvas><script>
