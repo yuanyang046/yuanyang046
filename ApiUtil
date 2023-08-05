@@ -1,0 +1,13 @@
+// Commit the Transaction 
+  ApiUtil.commitTransaction(); 
+} 
+catch (MDSException e) 
+{ 
+  // Rollback the Transaction 
+  ApiUtil.rollbackTransaction(); 
+ 
+  // Evaluate the exception's error code 
+  if(e.getErrorCode().equals(MDSException.MDS_EX_SUBSCRIBER_DISABLED) 
+  { 
+    // handle disabled user 
+    ... 
