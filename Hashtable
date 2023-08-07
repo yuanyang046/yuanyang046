@@ -1,0 +1,17 @@
+fInfo = new Hashtable(); 
+ 
+        setLoginId(uid); 
+        setPassword(pwd); 
+        setFirstName(fname); 
+        setLastName(lname); 
+        setMiddleName(mname); 
+        setGender(gender); 
+        setStreet1(street1); 
+        setStreet2(street2); 
+        setCity(city); 
+        setState(state); 
+        setPostalCode(postalcode); 
+        setCountry(country); 
+        setEmail(email); 
+        setPhone(phone); 
+        setFixedPhone(phone); 
