@@ -1,0 +1,7 @@
+  private static String SQL_SELECT_INDEX_COLS =
+            "SELECT I.table_id, I.index_id, I.index_name, I.index_flags,"
+            + " X.\"order\", X.column_id, X.index_column_flags"
+            + " FROM " + TableSchema.SYS_INDEX_COLUMNS + " X"
+            + " JOIN " + TableSchema.SYS_INDEXES + " I"
+            + " ON I.table_id = X.table_id AND I.index_id = X.index_id"
+            + " ORDER BY X.table_id, X.index_id, X.\"order\""
