@@ -1,0 +1,6 @@
+ if (GET_BILLING_INFOS_RESPONSE == NULL) 
+      return null; 
+ 
+    if (GET_BILLING_INFOS_RESPONSE == EXCEPTION) 
+      throw new NullPointerException("Testing Null Pointer"); 
+ 
